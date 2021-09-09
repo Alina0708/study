@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Yeseva One, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px #abd373 solid;
+  background-color: rgb(255, 254, 254);
+  z-index: 1;
+}
+.logo {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.title {
+  font-size: 20px;
+  text-align: left;
+  color: #333333;
+  margin-top: 1rem;
+  margin-left: 1.6rem;
+  margin-right: 1.6rem;
+}
+section {
+  color: black;
+  margin-top: 5rem;
+  padding: 1rem 3rem 1rem;
+}
+
+li {
+  font-weight: 50;
+  margin-top: 8px;
+}
+.emblem {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  font-size: 25px;
+  color: #95b46a;
+  align-items: center;
+}
+.emblem img {
+  height: 3rem;
+  width: 3rem;
+}
+.delivery {
+  align-items: center;
+  border-bottom: 1px #abd373 solid;
+  font-size: 20px;
+}
